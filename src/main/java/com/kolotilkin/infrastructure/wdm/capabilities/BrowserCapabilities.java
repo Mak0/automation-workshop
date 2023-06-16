@@ -15,6 +15,7 @@ public class BrowserCapabilities {
 
         if (ConfigurationManager.getInstance().isHeadlessBrowser()) {
             options.addArguments("--headless");
+            options.addArguments("--disable-dev-shm-usage");
         }
 
         return options;
