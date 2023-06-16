@@ -1,2 +1,12 @@
-package com.kolotilkin.website;public class WordpressSite {
+package com.kolotilkin.website;
+
+import org.openqa.selenium.WebDriver;
+
+public class WordpressSite {
+
+    private WebDriver webDriver;
+
+    public WordpressSite(WebDriver webDriver) {
+        this.webDriver = webDriver;
+    }
 }
