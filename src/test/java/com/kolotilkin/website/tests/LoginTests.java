@@ -9,4 +9,7 @@ public class LoginTests extends WordpressTestBase {
     public void testLoginWithIncorrectPassword() {
 
     }
+
+    @Test
+    public void testLoginWithEmptyPassword() {}
 }
