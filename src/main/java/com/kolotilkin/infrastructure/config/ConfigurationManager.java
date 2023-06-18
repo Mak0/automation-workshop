@@ -1,5 +1,7 @@
 package com.kolotilkin.infrastructure.config;
 
+import java.util.Map;
+
 public class ConfigurationManager {
 
     private static ConfigurationManager instance;
