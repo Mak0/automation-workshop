@@ -9,6 +9,8 @@ on:
 
 jobs:
   build:
+    env:
+      ISHEADLESS: true
     runs-on: self-hosted
 
     steps:
@@ -17,3 +19,5 @@ jobs:
 
       - name: Run Regression suite
         run: mvn -Dtest=RegressionSuite test
+        
+        
