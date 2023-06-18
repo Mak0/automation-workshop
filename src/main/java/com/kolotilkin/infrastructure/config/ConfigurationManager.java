@@ -28,6 +28,7 @@ public class ConfigurationManager {
 
     public Boolean isHeadlessBrowser() {
         String opt = getEnvironmentVariableOrDefault("ISHEADLESS", "false");
+        System.out.println(opt);
         return opt.equals("true");
     }
 
