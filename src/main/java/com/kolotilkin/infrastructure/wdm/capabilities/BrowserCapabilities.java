@@ -14,7 +14,9 @@ public class BrowserCapabilities {
         options.addArguments("test-type", "start-maximized", "disable-infobars");
 
         if (ConfigurationManager.getInstance().isHeadlessBrowser()) {
+            options.addArguments("--no-sandbox");
             options.addArguments("--headless");
+            options.addArguments("--disable-gpu");
             options.addArguments("--disable-dev-shm-usage");
         }
 
