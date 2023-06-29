@@ -12,4 +12,17 @@ public class LoginTests extends WordpressTestBase {
 
     @Test
     public void testLoginWithEmptyPassword() {}
+
+    @Test
+    public void testLoginWithEmptyForm() {
+
+    }
+
+    @Test
+    public void testSuccessfulAdminLogin() {
+
+    }
+
+    @Test
+    public void testRegularUserLogin() {}
 }
